@@ -10,3 +10,13 @@ To extract insights from marketing campaign data to inform customer segmentation
 - Feature engineering: customer lifetime, total kids, total spend
 - Correlation analysis between income, spend, and engagement
 - Clean dataset ready for dashboarding or machine learning
+
+## Dashboard: Marketing Analytics Overview
+Built using Apache Superset  
+This dashboard includes:
+
+- Total spending segmented by education level
+- Customer acquisition trend over time
+- Campaign response rate (conversion percentage)
+
+![Dashboard](dashboards/screenshots/marketing_dashboard.png)
