@@ -1,6 +1,4 @@
-# .gitignore
-
-#python
+# Python bytecode and packaging
 __pycache__/
 *.py[cod]
 *.egg
@@ -8,17 +6,26 @@ __pycache__/
 dist/
 build/
 
-#environments
+# Virtual environments
 .venv/
 env/
 venv/
 
-#jupyter
-.ipynb_checkpoints
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
 
-#code
+# VSCode config
 .vscode/
 
-#data files
+# Superset DB (local)
+superset_duck.db
+
+# Local environment variables (optional)
+.env
+
+# Data folders - don't push large raw/processed CSVs
 data/raw/
 data/processed/
+
+# Ignore model logs or experiment artifacts (optional)
+mlruns/
