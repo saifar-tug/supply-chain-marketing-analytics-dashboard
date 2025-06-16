@@ -85,7 +85,7 @@ This simulates real-world marketing targeting strategies using customer demograp
 | Income Distribution | Are there income gaps or outliers? |
 | Heatmap | What features correlate with spending? |
 
-| ![Spending](dashboards/screenshots/spending_by_marital.png) | ![Income](dashboards/screenshots/income_distribution.png) | ![Corr](dashboards/screenshots/spending_correlation_heatmap.png) |
+| ![Spending](dashboards/screenshots/spending_by_marital_status.png) | ![Income](dashboards/screenshots/income_distribution.png) | ![Corr](dashboards/screenshots/spending_correlation_heatmap.png) |
 |---|---|---|
 
 ---
@@ -116,7 +116,7 @@ streamlit run streamlit_final_dashboard.py
 ### Baseline Prediction (Before XGBoost):
 ![Baseline](dashboards/screenshots/streamlit_baseline_output.png)
 
-### High Confidence Prediction:
+### Prediction with High Confidence:
 ![84% Prediction](dashboards/screenshots/prediction_highest_confidence.png)
 
 ---
