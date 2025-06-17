@@ -207,7 +207,7 @@ streamlit run streamlit_final_dashboard.py
 
 ## Summary
 
-> In this project I tried to combine **data engineering**, **EDA**, **machine learning**, and **dashboarding**, an end-to-end marketing analytics pipeline.
+> In this project I tried to showcase an end-to-end **marketing data analytics pipeline**, combined **data engineering**, **exploratory analysis**, **machine learning**, and **dashboard development**.
 
 Aiming for roles in:
 - Data Science
