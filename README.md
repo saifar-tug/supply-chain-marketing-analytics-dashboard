@@ -1,6 +1,7 @@
-# Marketing Campaign Response Prediction – End-to-End Data Science Project
+# Marketing Campaign Response Prediction: An End-to-End Data Science Project
 
-This project simulates a real-world marketing analytics workflow for a product-based company. It covers the **entire data science lifecycle**: data cleaning, feature engineering, dashboarding, machine learning, and interactive app deployment.
+In this project, I built a complete marketing analytics solution from scratch — simulating how a real product-based company might use data to predict customer response to campaigns.
+It covers the entire data science lifecycle: from raw data cleaning and feature engineering to dashboard creation, model training, and deploying a live prediction app.
 
 ---
 
@@ -26,7 +27,8 @@ This simulates real-world marketing targeting strategies using customer demograp
 
 ## Project Structure
 
-```marketing-analytics-dashboard/
+```
+marketing-analytics-dashboard/
 ├── data/
 │   ├── raw/                                # Original dataset
 │   │   └── marketing_campaign.csv
