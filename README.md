@@ -1,6 +1,6 @@
 # Marketing Campaign Response Prediction: An End-to-End Data Science Project
 
-In this project, I built a complete marketing analytics solution from scratch — simulating how a real product-based company might use data to predict customer response to campaigns.
+In this project, I built a complete marketing analytics solution from scratch which simulates how a real product-based company might use data to predict customer response to campaigns.
 It covers the entire data science lifecycle: from raw data cleaning and feature engineering to dashboard creation, model training, and deploying a live prediction app.
 
 ---
