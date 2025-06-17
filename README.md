@@ -151,9 +151,9 @@ streamlit run streamlit_final_dashboard.py
 | XGBoost + SMOTE | 89% | 0.65 | 0.61 | 0.63 |
 
 ### Key Learnings
-> Our model learned to detect **non-responders** better than responders, even after SMOTE.  
+> Models learned to detect **non-responders** better than responders, even after SMOTE.  
 > This highlights **class imbalance, limited positive samples**, and possible **model conservativeness**.  
-> We tuned thresholds and used richer features to help improve predictions.
+> Later I tuned thresholds and used richer features to help improve predictions.
 
 ---
 
@@ -209,7 +209,7 @@ streamlit run streamlit_final_dashboard.py
 
 ## Summary
 
-> In this project I tried to showcase an end-to-end **marketing data analytics pipeline**, combined **data engineering**, **exploratory analysis**, **machine learning**, and **dashboard development**.
+> To sum up, I tried to showcase an end-to-end **marketing data analytics pipeline**, combined **data engineering**, **exploratory analysis**, **machine learning**, and **dashboard development**.
 
 Aiming for roles in:
 - Data Science
