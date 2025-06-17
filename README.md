@@ -79,14 +79,24 @@ This simulates real-world marketing targeting strategies using customer demograp
 
 ## EDA Visualizations (Python)
 
-| Chart | Description |
-|-------|-------------|
-| Spending by Marital Status | Who spends more on average? |
-| Income Distribution | Are there income gaps or outliers? |
-| Heatmap | What features correlate with spending? |
+### 1. Spending by Marital Status
+**Who spends more on average?**
 
-| ![Spending](dashboards/screenshots/spending_by_marital_status.png) | ![Income](dashboards/screenshots/income_distribution.png) | ![Corr](dashboards/screenshots/spending_correlation_heatmap.png) |
-|---|---|---|
+![Spending](dashboards/screenshots/spending_by_marital_status.png)
+
+---
+
+### 2. Income Distribution
+**Are there income gaps or outliers?**
+
+![Income](dashboards/screenshots/income_distribution.png)
+
+---
+
+### 3. Correlation Heatmap
+**What features correlate with total spending?**
+
+![Corr](dashboards/screenshots/spending_correlation_heatmap.png)
 
 ---
 
