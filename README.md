@@ -30,20 +30,20 @@ This simulates real-world marketing targeting strategies using customer demograp
 ```
 marketing-analytics-dashboard/
 ├── data/
-│   ├── raw/                                # Original dataset
+│   ├── raw/                                #original dataset
 │   │   └── marketing_campaign.csv
-│   └── processed/                          # Cleaned dataset used for modeling
+│   └── processed/                          #cleaned dataset for modeling
 │       └── marketing_campaign_cleaned.csv
 │
-├── notebooks/                              # Jupyter notebooks for EDA and modeling
-│   ├── 1_eda_marketing_campaign.ipynb      # Initial data exploration
-│   ├── eda_visualizations.ipynb            # Python-based visualizations
-│   ├── model_response_prediction.ipynb     # Baseline models (LogReg, RF)
-│   ├── 05_XGBmodel_response_prediction.ipynb # SMOTE + XGBoost modeling
-│   └── 06_xgboost_model.ipynb              # Final tuned XGBoost model
+├── notebooks/                              #for EDA and modeling
+│   ├── 1_eda_marketing_campaign.ipynb      
+│   ├── eda_visualizations.ipynb            
+│   ├── model_response_prediction.ipynb     #baseline models (LogReg, RF)
+│   ├── 05_XGBmodel_response_prediction.ipynb #SMOTE + XGBoost modeling
+│   └── 06_xgboost_model.ipynb              #final tuned XGBoost model
 │
 ├── dashboards/
-│   └── screenshots/                        # Superset & Streamlit visual outputs
+│   └── screenshots/                        #superset & Streamlit visuals
 │       ├── income_distribution.png
 │       ├── spending_by_marital.png
 │       ├── spending_correlation_heatmap.png
@@ -56,26 +56,26 @@ marketing-analytics-dashboard/
 │       ├── no_respond_baseline.png
 │       └── prediction_highest_confidence.png
 │
-├── models/                                 # Saved models and metadata
-│   ├── marketing_response_model.pkl        # Random Forest + SMOTE (baseline)
-│   ├── xgboost_response_model.pkl          # Tuned XGBoost model
-│   └── feature_columns.json                # Feature list for Streamlit prediction
+├── models/                                 #saved models and metadata
+│   ├── marketing_response_model.pkl        #random Forest + SMOTE (baseline)
+│   ├── xgboost_response_model.pkl          #tuned XGBoost model
+│   └── feature_columns.json                #feature list for Streamlit prediction
 │
-├── src/                                    # Python scripts for ETL and modeling
-│   ├── extract.py                          # Load raw data
-│   ├── transform.py                        # Feature engineering and cleaning
-│   ├── load.py                             # Save into DuckDB
-│   ├── run_pipeline.py                     # Full ETL pipeline trigger
-│   └── save_model.py                       # Train and save model (.pkl)
+├── src/                                   
+│   ├── extract.py                          #load raw data
+│   ├── transform.py                        #feature engineering and cleaning
+│   ├── load.py                             #save into DuckDB
+│   ├── run_pipeline.py                     #full ETL pipeline trigger
+│   └── save_model.py                       #train and save model (.pkl)
 │
-├── streamlit/                              # Streamlit web apps
-│   ├── streamlit_initial_dashboard.py      # Baseline response dashboard
-│   └── streamlit_final_dashboard.py        # Final prediction dashboard (XGBoost)
+├── streamlit/                              #streamlit web apps
+│   ├── streamlit_initial_dashboard.py      #baseline response dashboard
+│   └── streamlit_final_dashboard.py        #final prediction dashboard (XGBoost)
 │
-├── superset_duck.db                        # Apache Superset metadata DB
-├── requirements.txt                        # Project dependencies
-├── README.md                               # Project documentation (you're reading it!)
-└── venv/                                   # Python virtual environment (not tracked)
+├── superset_duck.db                        #apache Superset metadata DB
+├── requirements.txt                       
+├── README.md                              
+└── venv/                                  
 ```
 ---
 
