@@ -30,12 +30,12 @@ This simulates real-world marketing targeting strategies using customer demograp
 ```
 marketing-analytics-dashboard/
 ├── data/
-│   ├── raw/                                #original dataset
+│   ├── raw/                               
 │   │   └── marketing_campaign.csv
-│   └── processed/                          #cleaned dataset for modeling
+│   └── processed/                          #for modeling
 │       └── marketing_campaign_cleaned.csv
 │
-├── notebooks/                              #for EDA and modeling
+├── notebooks/                              #EDA and modeling
 │   ├── 1_eda_marketing_campaign.ipynb      
 │   ├── eda_visualizations.ipynb            
 │   ├── model_response_prediction.ipynb     #baseline models (LogReg, RF)
@@ -62,7 +62,7 @@ marketing-analytics-dashboard/
 │   └── feature_columns.json                #feature list for Streamlit prediction
 │
 ├── src/                                   
-│   ├── extract.py                          #load raw data
+│   ├── extract.py                          
 │   ├── transform.py                        #feature engineering and cleaning
 │   ├── load.py                             #save into DuckDB
 │   ├── run_pipeline.py                     #full ETL pipeline trigger
@@ -175,7 +175,7 @@ This saves:
 
 ---
 
-## Reproducibility – How to Run Locally
+## Reproducibility - to Run Locally
 
 ```bash
 git clone https://github.com/saifar-tug/marketing-analytics-dashboard.git
