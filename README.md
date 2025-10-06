@@ -68,11 +68,11 @@ marketing-analytics-dashboard/
 │   ├── run_pipeline.py                     #full ETL pipeline trigger
 │   └── save_model.py                       #train and save model (.pkl)
 │
-├── streamlit/                              #streamlit web apps
+├── streamlit/                              #streamlit web
 │   ├── streamlit_initial_dashboard.py      #baseline response dashboard
 │   └── streamlit_final_dashboard.py        #final prediction dashboard (XGBoost)
 │
-├── superset_duck.db                        #apache Superset metadata DB
+├── superset_duck.db                        #apache superset metadata DB
 ├── requirements.txt                       
 ├── README.md                              
 └── venv/                                  
